@@ -108,18 +108,46 @@ body {
     margin: 0;
     font-size: 24px;
 }
-.checkbox{
+
+.checkbox {
     width: 20px;
     height: 20px;
     cursor: pointer;
 }
-label{
+
+label {
     font-size: 20px;
 }
-.barra{
+
+.barra {
     height: 30px;
     width: 100%;
     background-color: var(--fundo-barra);
+}
+
+.forca {
+    height: 30px;
+    position: relative;
+    bottom: 30px;
+}
+
+.forca {
+    background-color: red;
+    width: 25%;
+}
+
+.media {
+    background-color: yellow;
+    width: 50%;
+}
+
+.forte {
+    background-color: rgb(11, 249, 11);
+    width: 100%;
+}
+.parametro-senha__texto{
+    display: flex;
+    justify-content: space-between;
 }
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
