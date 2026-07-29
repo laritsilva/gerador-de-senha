@@ -109,46 +109,45 @@ body {
     font-size: 24px;
 }
 
-.checkbox {
+.checkbox{
     width: 20px;
     height: 20px;
     cursor: pointer;
 }
 
-label {
-    font-size: 20px;
-}
-
-.barra {
+.barra{
+    background-color: var(--fundo-barra);
     height: 30px;
     width: 100%;
-    background-color: var(--fundo-barra);
 }
 
-.forca {
+
+.forca{ 
     height: 30px;
     position: relative;
     bottom: 30px;
 }
 
-.forca {
-    background-color: red;
+.fraca{
+    background-color: #E71B32;
     width: 25%;
 }
 
-.media {
-    background-color: yellow;
+.media{
+    background-color: #FAF408;
     width: 50%;
 }
 
-.forte {
-    background-color: rgb(11, 249, 11);
+.forte{
+    background-color: #00FF85;
     width: 100%;
 }
-.parametro-senha__texto{
+
+.parametro-senha-textos{
     display: flex;
     justify-content: space-between;
 }
+
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha {
         flex-direction: row;
